@@ -5,7 +5,16 @@
   <title>Speech Detection</title>
 </head>
 <body>
+  <div class="title">Javascript Speech Detection</div>
+  <div class="tutorial">
+    <h2>How to use:</h2>
+    <ul>
+      <li><span class="number">1</span> - Click on "allow microphone</li>
+      <li><span class="number">2</span> - Speak!</li>
+      <li class="last">* For extra fun, put in a video in another language</li>
+    </ul>
 
+  </div>
   <div class="words" contenteditable>
   </div>
 
@@ -52,6 +61,31 @@
       font-family: 'helvetica neue', sans-serif;
       font-weight: 200;
       font-size: 20px;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 3rem;
+      font-weight: 1000;
+      border-bottom: 1px solid black;
+      display: inline-block;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      font-weight: 500;
+      margin-top: 10px;
+    }
+
+    .last {
+      font-size: 16px;
+    }
+
+    .number {
+      font-weight: 600;
     }
 
     .words {
